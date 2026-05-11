@@ -10,7 +10,7 @@ from tqdm import tqdm
 # 1. Ensure you have added credits at https://platform.openai.com/account/billing
 # 2. Use 'gpt-4o-mini' to save money; it's plenty smart for this audit.
 client = OpenAI(api_key="API_KEY_PLACEHOLDER")
-INPUT_FILE = "DataSet"
+INPUT_FILE = "CS593FINALPROJECT - DataSet.csv"
 OUTPUT_FILE = "output_scored.csv"
 MODEL = "gpt-4o-mini"
 
